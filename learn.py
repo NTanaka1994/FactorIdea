@@ -132,10 +132,3 @@ def regression(df,label,path):
     gosa=sum(acc)/len(acc)
     seido=(len(y)*gosa)/sum(y)
     return seido
-    
-    
-    
-#df=pd.read_csv("wine.csv",encoding="shift-jis")
-#df=pd.get_dummies(df,columns=["天気","風"])
-#regression(df,"家賃","C:/Users/decar/Desktop/勉強/test/アプリ開発/rent")
-#classification(df,"Wine","C:/Users/decar/Desktop/勉強/test/アプリ開発")
