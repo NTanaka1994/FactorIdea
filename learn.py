@@ -93,7 +93,6 @@ def regression(df,label,path):
     x_name=x_table.columns
     acc=[]
     imp=[]
-    #y=y.astype("int")
     for i in range(30):
         model=GBR(n_estimators=30)
         x_train,x_test,y_train,y_test=tts(x,y,test_size=0.2)
